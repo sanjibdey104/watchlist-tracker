@@ -5,10 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Watchlist Tracker</title>
     <link rel="stylesheet" href="popup.css" />
-    <script src="popup.js"></script>
+    <script src="popup.js" defer></script>
   </head>
 
   <body class="popup-body">
     <h3>welcome to your watchlist tracker</h3>
+
+    <form action="" class="add-to-watchlist-form">
+      <input
+        id="name-input"
+        name="movieName"
+        type="text"
+        placeholder="movie/series name"
+      />
+      <input
+        id="release-date-input"
+        name="movieReleaseDate"
+        type="date"
+        placeholder="pick release date"
+      />
+      <button type="submit" id="form-submit-btn">add to watchlist</button>
+    </form>
+
+    <h5 class="list-title">
+      <span>your watchlist:</span>
+      <button class="clear-watchlist-btn">clear all</button>
+    </h5>
+    <ul class="watchlist-wrapper"></ul>
   </body>
 </html>
