@@ -1,0 +1,9 @@
+{
+  "name": "Watchlist Tracker",
+  "description": "Track movies, series to watch later",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup/popup.html"
+  }
+}
