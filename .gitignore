@@ -1,0 +1,10 @@
+# The most important one: Your private key
+*.pem
+
+# Zipped versions of your extension
+*.zip
+*.crx
+
+# System junk
+.DS_Store
+Thumbs.db
